@@ -1,0 +1,289 @@
+/* Reset y fuentes */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #e0f0ff; /* Azul celeste */
+  color: #333;
+}
+
+/* Contenedor principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra superior */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007acc;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.user-icon {
+  font-size: 20px;
+}
+
+/* Área de botones a la derecha de la barra */
+.top-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Botón de Inventario */
+.inventory-btn {
+  background-color: white;
+  color: #007acc;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.inventory-btn:hover {
+  background-color: #e6f2ff;
+  transform: translateY(-1px);
+}
+
+/* Botón Cerrar Sesión */
+.btn.cerrar {
+  background-color: #cc0000;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(204, 0, 0, 0.5);
+}
+
+.btn.cerrar:hover {
+  background-color: #a30000;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(163, 0, 0, 0.7);
+}
+/* Encabezado con imagen */
+.product-header {
+  text-align: center;
+  margin: 25px 0 30px;
+}
+
+.product-header img {
+  max-width: 140px;
+  border-radius: 50%;
+  border: 4px solid #007acc;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+.product-header h1 {
+  margin-top: 15px;
+  font-size: 28px;
+  color: #007acc;
+  font-weight: 700;
+}
+
+/* Botones de acciones */
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.accion-btn {
+  background-color: #007acc;
+}
+
+.accion-btn:hover {
+  background-color: #005c99;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabla de inventario */
+.table-section {
+  overflow-x: auto;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.inventory-table th {
+  background-color: #007acc;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.inventory-table tr:hover {
+  background-color: #f2f9ff;
+}
+
+/*trabajador
+/* Reset y fuentes */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #e8f4ff; /* fondo celeste muy suave */
+  color: #333;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 122, 204, 0.15);
+}
+
+/* Título principal */
+h2 {
+  color: #007acc;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Botón Registrar Venta */
+.btn {
+  background-color: #007acc;
+  color: white;
+  padding: 12px 22px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 8px rgba(0, 122, 204, 0.4);
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background-color: #005f99;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 95, 153, 0.6);
+}
+
+/* Tabla inventario */
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border-bottom: 1px solid #e0e7f0;
+  font-size: 15px;
+}
+
+.inventory-table th {
+  background-color: #007acc;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.inventory-table tr:hover {
+  background-color: #f0f8ff;
+  cursor: default;
+}
+
+/* Botón Cerrar Sesión */
+.btn.cerrar {
+  background-color: #cc0000;
+  box-shadow: 0 3px 8px rgba(204, 0, 0, 0.5);
+  margin-top: 40px;
+  padding: 12px 26px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn.cerrar:hover {
+  background-color: #a30000;
+  box-shadow: 0 5px 14px rgba(163, 0, 0, 0.7);
+  transform: translateY(-2px);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+
+  .inventory-table th,
+  .inventory-table td {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+}
